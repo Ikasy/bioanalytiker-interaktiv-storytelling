@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF4EC;
+}
+
+h1{
+    color: #AC354B;
+}
+
+
+/* ---------------------------------------- HEADER ---------------------------------------- */
+header{
+    position: fixed;
+    
+}
+
+header a svg{
+    margin: 10px;
+    padding: 5px;
+    border: solid #AC354B 2px;
+    border-radius: 100%;
+}
+
+
+/* ---------------------------------------- BRITTS HISTORIE ---------------------------------------- */
+#startBox{
+    display: flex;
+}
+
+#startBoxTekst{
+    width: 55%;
+    height: 500px;
+    padding: 75px;
+
+    background-color: white;
+    border-radius: 0px 100px 100px 0px;
+
+}
+
+#startBoxBloddraaber{
+
+}
+
+#startBoxIkoner{
+
+}
