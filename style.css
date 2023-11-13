@@ -125,6 +125,12 @@ header a svg{
     text-decoration: none;
     background-color: #AC354B;
 }
+#startBoxImg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
 
 /* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
 #startBoxBloddraaber{
