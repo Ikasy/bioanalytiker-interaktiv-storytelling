@@ -18,6 +18,9 @@ font-family: 'Quicksand', sans-serif;
 
 
 */
+
+/* ---------------------------------------- GENERELLE REGLER ---------------------------------------- */
+
 *{
     margin: 0;
     padding: 0;
@@ -29,13 +32,26 @@ body{
 h1{
     color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 50px;
 }
 
 p{
     font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+
+}
+a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
 }
 
+.mt{
+    margin-top: 50px;
+}
+.mb{
+    margin-bottom: 50px;
+}
 
 /* ---------------------------------------- HEADER ---------------------------------------- */
 header{
@@ -51,25 +67,50 @@ header a svg{
 }
 
 
-/* ---------------------------------------- BRITTS HISTORIE ---------------------------------------- */
+/* ---------------------------------------- FORSIDE ---------------------------------------- */
 #startBox{
+    position: absolute;
+    top: 45px;
     display: flex;
+    z-index: -1;
+    width: 100%;
+    height: 650px;
 }
 
 #startBoxTekst{
     width: 55%;
-    height: 500px;
-    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     background-color: white;
     border-radius: 0px 100px 100px 0px;
 
 }
 
-#startBoxBloddraaber{
-
+#startBoxTekst P{
+    width: 80%;
 }
 
-#startBoxIkoner{
+#storKurve{
+    margin-top: 14px ;
+}
+#lilleKurve{
+    position: absolute;
+    bottom: 20px;
+    left:596px;
+}
+#startBoxKnapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+#startBoxKnapper a{
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: #AC354B;
 }
