@@ -24,6 +24,7 @@ font-family: 'Quicksand', sans-serif;
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #FFF4EC;
@@ -34,6 +35,16 @@ h1{
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
+}
+h2{
+    color: #AC354B;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+}
+h3{
+    color: #AC354B;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
 }
 
 p{
@@ -113,4 +124,35 @@ header a svg{
     color: white;
     text-decoration: none;
     background-color: #AC354B;
+}
+
+/* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
+#startBoxBloddraaber{
+    width: 80%;
+    margin: 0 auto;
+    align-self: start;
+}
+#lilleDraabe{
+    margin-bottom: 20px;
+}
+
+#baggrundsKurve{
+    width: 100%;
+margin-top: 500px;
+}
+section{
+    position: relative;
+    z-index: 10;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 40%;
+    height: fit-content;
+    border-radius: 200px;
+}
+section div{
+    width:50%
 }
