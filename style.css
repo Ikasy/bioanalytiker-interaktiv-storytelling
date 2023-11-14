@@ -182,7 +182,12 @@ section div{
     text-align: center;
 }
 
-
+#arbjedspladensMAIN{
+    background-image: url(media/img/string_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
