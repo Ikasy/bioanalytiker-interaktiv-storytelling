@@ -177,9 +177,14 @@ section div{
 
 
 /* ---------------------------------------- ARBEJDSPLADSEN ---------------------------------------- */
-.mbArbejdsplads{
+.mbArbejdspladsH1{
     margin-bottom: 50px;
     text-align: center;
+}
+
+.mbArbejdspladsP{
+    width: 10px;
+    border: solid green 2px;
 }
 
 #arbjedspladensMAIN{
@@ -197,7 +202,7 @@ section div{
     justify-content: space-around; */
     
     margin-left: -220px;
-    margin-top: -25%;
+    margin-top: -700px;
 }
 
 .faellesskabFoto img{
@@ -237,6 +242,10 @@ section div{
     width: 25%;
     margin-top: -500px;
     margin-left: 250px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    padding: 20px;
     
     /* border: solid #AC354B 2px; */
 }
@@ -299,6 +308,10 @@ section div{
     
     margin-top: -500px;
     margin-left: 1050px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    padding: 20px;
 }
 
 
@@ -322,13 +335,18 @@ section div{
 
 .afdelingFoto{
     margin-top: -200px;
-    margin-left: -200px;
+    margin-left: -220px;
 }
 
 .afdelingFoto img{
     border-radius: 50%;
-    position: relative;
+   
+    width: 100%;
+    height: auto;
+    transform: translate3d(10, 0, 0);
+    transition: transform 2.5s ease-in;
 }
+
 
 
 
@@ -365,6 +383,10 @@ section div{
     
     margin-top: -500px;
     margin-left: 250px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    padding: 40px;
 }
 
 

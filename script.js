@@ -52,3 +52,7 @@ if(brittKnapper !== null || arbejdspladsKnapper !== null || blodKnapper !== null
         startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
     }
 }
+
+
+
+  
