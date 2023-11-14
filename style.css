@@ -138,7 +138,7 @@ header a svg{
 #startBoxBloddraaber{
     width: 80%;
     margin: 0 auto;
-    align-self: start;
+    text-align: end;
 }
 #lilleDraabe{
     margin-bottom: 20px;
@@ -146,9 +146,15 @@ header a svg{
 
 #baggrundsKurve{
     width: 100%;
-    margin-top: 500px;
+    /* margin-top: 500px; */
+    height: 3365px;
+    background-image: url(media/img/string_1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
+    margin-top: 500px;
     position: relative;
     z-index: 10;
     background-color: white;
