@@ -69,7 +69,7 @@ a{
 /* ---------------------------------------- HEADER ---------------------------------------- */
 header{
     position: fixed;
-    
+    z-index: 100;
 }
 
 header a svg{
@@ -77,17 +77,19 @@ header a svg{
     padding: 5px;
     border: solid #AC354B 2px;
     border-radius: 100%;
+    background-color: #FFF4EC;
 }
 
 
 /* ---------------------------------------- FORSIDE ---------------------------------------- */
 #startBox{
-    position: absolute;
-    top: 45px;
+    margin-top: 45px;
     display: flex;
     z-index: -1;
     width: 100%;
     height: 650px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 #startBoxTekst{
@@ -107,11 +109,13 @@ header a svg{
 }
 
 #storKurve{
+    position: absolute;
+    top: 0;
     margin-top: 14px ;
 }
 #lilleKurve{
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left:596px;
 }
 #startBoxKnapper{
@@ -127,12 +131,7 @@ header a svg{
     text-decoration: none;
     background-color: #AC354B;
 }
-#startBoxImg{
-    position: absolute;
-    right: 0;
-    z-index: -1;
 
-}
 
 /* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
 #startBoxBloddraaber{
