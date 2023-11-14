@@ -183,16 +183,22 @@ section div{
     text-align: center;
 }
 
+
+
+
+
+
 .faellesskabFoto{
     /* display: flex;
     justify-content: space-around; */
     
     margin-left: -220px;
-    margin-top: -20%;
+    margin-top: -25%;
 }
 
 .faellesskabFoto img{
     border-radius: 50%;
+    position: relative;
 }
 
 #storesFotoFaellesskab{
@@ -201,6 +207,7 @@ section div{
     
     margin-left: 1200px;
     margin-top: 800px;
+    z-index: 1;
 
 }
 
@@ -210,6 +217,7 @@ section div{
     
     margin-left: -700px;
     margin-bottom: -200px;
+    z-index: 2;
 }
 
 #lilleFotoFaellesskab{
@@ -218,6 +226,7 @@ section div{
 
     margin-left: -50px;
     margin-bottom: -150px;
+    z-index: 2;
 }
 
 .faellesskabText{
@@ -241,12 +250,18 @@ section div{
 }
 
 
+
+
+
+
+
 .boernFoto{  
     margin-top: 500px;
     margin-left: 250px;
 }
 .boernFoto img{
     border-radius: 50%;
+    position: relative;
 }
 
 #storesFotoBoern{
@@ -302,10 +317,67 @@ section div{
 
 
 .afdelingFoto{
-    margin-top: 500px;
-    margin-left: 250px;
+    margin-top: -200px;
+    margin-left: -200px;
 }
 
 .afdelingFoto img{
     border-radius: 50%;
+    position: relative;
 }
+
+
+
+
+
+#storeFotoUndervisning{
+    width: 30%;
+    height: 30%;
+    
+    margin-left: 1200px;
+    margin-top: 800px;
+}
+
+#mellemFotoKage{
+    width: 22%;
+    height: 22%;
+    
+    margin-left: -700px;
+    margin-bottom: -250px;
+}
+
+#lilleFotoKantine{
+    width: 15%;
+    height: 15%;
+
+    margin-left: -50px;
+    margin-bottom: -150px;
+    z-index: -5;
+}
+
+
+.afdelingText{
+    width: 30%;
+    
+    margin-top: -500px;
+    margin-left: 250px;
+}
+
+
+.afdelingText h2{
+    padding-bottom: 20px;
+}
+
+
+.afdelingText p{
+    font-size: 14pt;
+    line-height: 40px;
+
+    color:#AC354B;
+}
+
+
+
+
+
+
