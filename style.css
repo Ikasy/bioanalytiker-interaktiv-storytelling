@@ -144,7 +144,12 @@ header a svg{
 
 #baggrundsKurve{
     width: 100%;
-margin-top: 500px;
+    /* margin-top: 500px; */
+    height: 3365px;
+    background-image: url(media/img/snor_7.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     position: relative;
