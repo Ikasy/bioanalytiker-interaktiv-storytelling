@@ -240,7 +240,6 @@ section div{
 }
 
 
-
 .boernFoto{  
     margin-top: 500px;
     margin-left: 250px;
@@ -291,7 +290,21 @@ section div{
   
     font-size: 14pt;
     line-height: 40px;
-
     color:#AC354B;
 }
 
+
+
+
+
+
+
+
+.afdelingFoto{
+    margin-top: 500px;
+    margin-left: 250px;
+}
+
+.afdelingFoto img{
+    border-radius: 50%;
+}
