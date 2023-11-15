@@ -63,6 +63,7 @@ h3{
 p{
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
+    width: 400px;
 
 }
 a{
@@ -178,9 +179,13 @@ header a{
     background-size: cover;
 }
 
-.indholdsSektion{
+.indholdsSektionET, .indholdsSektionTO, .indholdsSektionTRE{
     width: 80%;
     margin: auto;
+}
+
+.indholdsSektionTO img{
+    border-radius: 50%;
 }
 
 #storesFotoFaellesskab{
@@ -233,7 +238,7 @@ header a{
 
 }
 #brittvideo{
-    width: 500px;
+    width: 40%;
     height: fit-content;
 }
 
@@ -246,4 +251,180 @@ header a{
 }
 
 
+/* ---------------------------------------- IKONER ---------------------------------------- */
 
+
+.indholdsSektionET img {
+    height: fit-content;
+}
+#brittsHIS{
+    width: 75%;
+}
+
+#brittsHISbrod{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+#efterskoleSEC{
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+#efterskoleSEC img{
+    width: 40%;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#apotekSEC{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#apotekSEC h3{
+    margin-left: 75px;
+}
+
+#apotekSEC p{
+    margin-left: 100px;
+}
+
+#apotekSEC img{
+    width: 25%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+#laegePraksisSEC{
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+#laegePraksisSEC img{
+    width: 20%;
+    margin-left: 600px;
+    padding-top: 50px;
+
+}
+
+#laegePraksisSEC h3{
+    margin-top: -100px;
+    margin-left: 400px;
+}
+
+#laegePraksisSEC p{
+    margin-top: -300px;
+    margin-left: 150px;
+}
+
+
+#medicinSEC{
+    margin-top: 100px;
+    margin-left: 300px;
+    padding-bottom: 200px;
+}
+
+
+#medicinSEC h3{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+#medicinSEC img{
+    width: 30%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+#medicinSEC p{
+    margin-left: 350px;
+    margin-top: -250px;
+
+
+}
+
+
+#personligVIDEO{
+    border: solid 2px greenyellow;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    padding-top: 200px;
+}
+
+
+/* ---------------------------------------- ARBEJDSPLADSEN ---------------------------------------- */
+#arbejdspladsH2{
+    width: 30%;
+    margin-top: 200px;
+}
+
+
+/*FÆLLESSKABE*/
+
+.faellesskabFoto{
+    padding-bottom: 500px;
+}
+
+#faellesskabSEC{
+    margin-top: 150px;
+}
+
+#faellesskabSEC h3{
+    margin-left: 500px;
+}
+
+#faellesskabSEC img:nth-child(1){
+    width: 400px;
+    margin-left: -50px;
+
+}
+
+#faellesskabSEC img:nth-child(2){
+    width: 300px;
+    margin-left: -500px;
+    margin-top: 50px;
+
+}
+
+#faellesskabSEC img:nth-child(3){
+    width: 200px;
+}
+
+
+.faellesskabFoto p{
+    margin-left: 700px;
+    margin-top: -300px;
+}
+
+
+
+
+
+/*BØRN*/
+
+#boernSEC img:nth-child(1){
+    width: 400px;}
+    
+#boernSEC img:nth-child(2){
+    width: 300px;}
+    
+#boernSEC img:nth-child(3){
+    width: 200px;}
+    
+
+/*AFDELING*/
+
+#afdelingSEC img:nth-child(1){
+    width: 400px;}
+        
+#afdelingSEC img:nth-child(2){
+    width: 300px;}
+        
+#afdelingSEC img:nth-child(3){
+    width: 200px;}
+        
