@@ -9,7 +9,7 @@ const blodKnapper = document.getElementById("blodknapper");
 var currentURL = window.location.href;
 
 // Den tjekker URLen for hvilken side man er på (Om urlen indeholder side navnet) og skifter billede
-if (currentURL.includes("/index")) {
+if (currentURL.includes("/index") || currentURL.includes("/forside")) {
     startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
 }
 if (currentURL.includes("/blod")) {

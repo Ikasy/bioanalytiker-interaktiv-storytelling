@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioanalytikerens historie | Forside</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptForside.js" defer></script>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+        <!-- id="storKurve"
+    id="storKurve"
+    id="storKurve" -->
+    <!-- KURVE TIL VENSTRE -->
+
+    
+    <svg id="storKurve" width="498" height="364" viewBox="0 0 498 364" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M497 32.7127V32.9744C491.52 33.1355 486.056 32.545 480.675 30.931C475.936 29.5083 471.539 27.3609 467.29 24.8846C458.647 19.8448 450.622 13.4495 441.575 9.05729C434.17 5.46368 426.145 3.5444 418 3.09814C428.615 2.53443 439.28 4.38325 448.911 9.05729C457.972 13.4528 474.663 24.9048 474.663 24.9048C474.663 24.9048 483.285 29.5117 488.018 30.931C490.988 31.8235 493.989 32.3973 496.997 32.7127H497Z" fill="#AD354C"/>
+        <path d="M355 34C368.311 13.7442 393.683 1.7674 418 3.10083C396.071 4.28305 374.368 15.7959 362.406 34H355Z" fill="#AD354C"/>
+        <path d="M210 32.2805V34H199.418C182.467 16.8188 161.368 3.08685 137.486 2.72304C135.986 2.69902 134.493 2.73677 133 2.84317C137.879 1.57328 142.928 0.92461 148.065 1.00698C171.947 1.37422 193.049 15.1027 210 32.2839V32.2805Z" fill="#AD354C"/>
+        <path d="M165.754 185.938C179.094 206.056 186.263 232.46 176.424 254.507C169.826 269.294 153.538 279.551 137.973 280C149.889 276.439 160.828 267.7 165.951 256.232C175.79 234.185 168.621 207.781 155.274 187.663C141.935 167.552 123.107 151.837 106.698 134.137C90.2987 116.438 75.6844 95.1643 74.1169 71.0649C71.9464 37.6638 100.314 5.21846 133.36 3C105.037 10.48 82.6608 39.5269 84.597 69.3398C86.1577 93.4392 100.772 114.713 117.178 132.412C133.577 150.112 152.415 165.831 165.754 185.938Z" fill="#AD354C"/>
+        <path d="M116.6 273.162C122.729 278.319 130.274 280.469 138 280.251C126.895 283.549 114.951 282.408 106.021 274.899C97.5149 267.745 93.3631 256.837 89.5383 246.419C84.0013 231.308 78.4643 216.194 72.9274 201.084C67.6479 186.688 57.7085 169.628 44 167.887C45.145 167.342 46.3317 166.905 47.5742 166.597C64.9194 162.241 77.375 182.606 83.5106 199.35C89.0476 214.46 94.5916 229.574 100.129 244.685C103.946 255.103 108.098 266.011 116.604 273.165L116.6 273.162Z" fill="#AD354C"/>
+        <path d="M55.8332 308.356C58.571 330.631 27.0297 357.126 4 362C26.1594 357.229 48.144 332.334 45.4131 310.079C42.5485 286.76 29.4694 266.187 20.9716 244.295C12.4841 222.402 9.3591 195.28 24.3879 177.286C27.7287 173.294 32.0016 169.864 37.0284 168.589C39.4304 167.982 41.733 167.862 43.9328 168.148C40.4035 169.837 37.347 172.536 34.8114 175.559C19.7826 193.549 22.9008 220.675 31.3951 242.568C39.8827 264.46 52.9652 285.033 55.8263 308.352L55.8332 308.356Z" fill="#AD354C"/>
+        <path d="M355 34C368.243 13.7442 393.487 1.7674 417.681 3.10083C425.859 3.55791 433.913 5.52369 441.351 9.20437C450.435 13.6995 458.492 20.2533 467.17 25.4152C471.433 27.9514 475.847 30.1509 480.609 31.6081C486.012 33.2611 491.501 33.866 497 33.701" stroke="#AD354C" stroke-miterlimit="10"/>
+        <path d="M4 362C26.3538 357.23 48.5312 332.338 45.7763 310.086C42.8866 286.77 29.6928 266.2 21.1205 244.31C12.5585 222.42 9.4061 195.302 24.5667 177.31C27.9369 173.319 32.2472 169.89 37.3181 168.614C39.7411 168.008 42.064 167.887 44.2831 168.173C57.902 169.907 67.7706 186.861 73.0143 201.165C78.5137 216.182 84.0131 231.202 89.5126 246.22C93.3114 256.573 97.4351 267.413 105.883 274.524C114.753 281.989 126.619 283.12 137.646 279.842C149.602 276.285 160.577 267.554 165.717 256.098C175.589 234.074 168.395 207.696 155.005 187.599C141.621 167.508 122.73 151.808 106.267 134.127C89.8133 116.446 75.1504 95.1935 73.5777 71.1185C71.4069 37.7547 99.8685 5.34228 133.024 3.12607C134.507 3.02267 135.99 2.98476 137.48 3.00544C161.202 3.37423 182.163 17.1609 199 34.4149" stroke="#AD354C" stroke-miterlimit="10"/>
+        <path d="M1 363C1.33225 363 1.66775 363 2 363" stroke="#AD354C" stroke-miterlimit="10"/>
+        <path d="M362 34C373.933 15.7923 395.587 4.28274 417.465 3.10052C428.152 2.52315 438.89 4.41678 448.586 9.20412C457.709 13.7062 474.514 25.4357 474.514 25.4357C474.514 25.4357 483.195 30.1543 487.96 31.608C490.95 32.5222 493.972 33.1099 497 33.4329" stroke="#AD354C" stroke-miterlimit="10"/>
+        <path d="M1 363C1.35301 362.955 1.70948 362.91 2.06249 362.848C2.78582 362.734 3.50915 362.606 4.23248 362.451C27.4932 357.564 59.3507 331.023 56.5854 308.705C53.6921 285.341 40.4819 264.73 31.9093 242.796C23.3297 220.862 20.1803 193.689 35.3598 175.661C37.9208 172.632 41.0079 169.924 44.5727 168.236C45.7113 167.693 46.8915 167.258 48.127 166.951C65.3761 162.613 77.7627 182.893 83.8642 199.567C89.3705 214.614 94.8837 229.665 100.39 244.713C104.187 255.088 108.315 265.949 116.774 273.074C122.868 278.21 130.372 280.351 138.055 280.133C153.695 279.681 170.054 269.413 176.682 254.614C186.566 232.546 179.364 206.115 165.964 185.977C152.563 165.846 133.639 150.114 117.165 132.397C100.684 114.68 86.003 93.3849 84.4353 69.2612C82.4902 39.4184 104.969 10.3422 133.421 2.85472C138.273 1.57687 143.295 0.924137 148.403 1.00702C172.155 1.37656 193.142 15.1911 210 32.48" stroke="#AD354C" stroke-miterlimit="10"/>
+        </svg>
+        
+        
+        
+        
+            
+    <!-- KURVE TIL HØJRE -->
+    <svg id="lilleKurve" width="225" height="309" viewBox="0 0 274 309" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3.46045 296.408C18.3826 259.842 98.6598 238.522 120.696 231.047C145.998 221.041 163.146 200.977 165.77 181.63C168.625 203.595 150.193 229.011 120.632 240.704C98.6279 248.167 18.5421 261.462 3.46045 296.408Z" fill="#AD354C"/>
+        <path d="M273 1L272.936 10.657C228.497 28.3922 173.063 49.8965 136.185 71.9407C122.447 80.1501 96.1276 91.5023 91.8528 109.035C86.7245 85.8619 120.138 71.9107 136.248 62.2837C173.127 40.2394 228.561 18.7352 273 1Z" fill="#AD354C"/>
+        <path d="M148.61 146.291C162.544 155.415 167.576 168.354 165.77 181.63C164.506 171.894 159.062 162.833 148.547 155.948C134.589 144.697 105.08 144.322 92.3194 120.695C91.0234 116.528 90.9676 112.65 91.8528 109.035C91.9964 109.695 92.1719 110.363 92.3832 111.038C105.144 134.665 134.653 135.04 148.61 146.291Z" fill="#AD354C"/>
+        <path d="M3.4405 296.456C1.86135 300.128 1 304.039 1 308.21" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M91.8528 109.035C90.9675 112.65 91.0233 116.528 92.3193 120.695C105.08 144.322 134.589 144.697 148.546 155.948C159.062 162.833 164.505 171.894 165.77 181.63C168.625 203.595 150.193 229.011 120.632 240.704C98.6279 248.168 18.5421 261.462 3.46045 296.408" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M91.8528 109.035C86.7245 85.8619 120.138 71.9107 136.248 62.2837C173.127 40.2394 228.561 18.7352 273 1L272.936 10.657C228.497 28.3922 173.063 49.8965 136.185 71.9407C122.447 80.1501 96.1276 91.5023 91.8528 109.035Z" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3.46045 296.408C18.3826 259.842 98.6598 238.522 120.696 231.047C145.998 221.042 163.146 200.977 165.77 181.63C167.576 168.354 162.543 155.415 148.61 146.291C134.653 135.04 105.144 134.665 92.3831 111.038C92.1718 110.363 91.9963 109.695 91.8528 109.035" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3.46132 296.408C3.46132 296.408 3.44879 296.437 3.44043 296.456" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1.06384 308.303C1.06384 304.189 1.90127 300.24 3.44054 296.456" stroke="#AD354C" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        
+
+    <div id="startBox">
+        <div id="startBoxTekst">
+            <!-- DRÅBE -->
+            <svg class="mb" width="33" height="52" viewBox="0 0 33 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M33.0055 35.4972C33.0243 44.2417 25.6682 51.3464 16.5751 51.366C7.48195 51.3855 0.0952623 44.3126 0.0764335 35.5681C0.0576046 26.8236 16.4645 0.035349 16.4645 0.035349C16.4645 0.035349 32.9867 26.7527 33.0055 35.4972Z" fill="#AC354B"/>
+            </svg>
+            
+            <!-- INDHOLD I BOKSEN -->
+            <h1 class="mb" >OVERVEJER DU AT <br> SKIFTE RETNING?</h1>
+            <p class="mb" >Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. Sætningen blev gjordt kendt i 1960'erne med.</p>
+            <!-- <div id="startBoxKnapper">
+                <a id="arbejdspladsknapper" href="arbejdsplads.html">ARBEJDSPLADSEN</a>
+                <a id="brittknapper" href="britt.html">BRITTS HISTORIE</a>
+                <a id="blodknapper" href="blod.html">FØLG EN BLODPRØVE</a>
+            </div> -->
+        </div>
+
+    </div>
+    <header>
+        <a id="arbejdspladsknapper" href="arbejdsplads.html">ARBEJDSPLADSEN</a>
+        <a id="brittknapper" href="britt.html">BRITTS HISTORIE</a>
+        <a id="blodknapper" href="blod.html">FØLG EN BLODPRØVE</a>
+    </header>
+    <div id="baggrundsKurve">
+        <div>
+            <h2>BRITTS HISTORIE</h2>
+
+            <section>
+                <h3>BRITT</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Britt, den dedikerede bioanalytiker, udviser glæde og kvalitet i job. Både når hun integrerer med patienter, men også med kollegaer. Hendes åbenhed og imødekommende natur skaber en positiv atmosfære på arbejdspladsen. En sand holdspiller på Horsens biokemiske afdeling. 
+                    <br><br>
+                    Se og høre mere om Britt og hendes bioanalytiker-rejse i videoerne.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>EFTERSKOLE</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Britt har også arbejdet på efterskolen “Ådalen”, hvor hunhavde administrative og mediegrafiske arbejdsopgaver.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>APOTEKS MARKEDSFØRING</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Tidligere har Britt også arbejdet med marketing i forbindelse med hendes job i et apotek. Nu er apoteket udskiftet med Regions Hospitalet Horsens og medicinen er ersfattet med blod, urin, rygmarvsvæsker og mm.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>LÆGEPRAKSIS</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Som barn og teenager tilbragte Britt meget tid på farens lægepraksis. Som ung pige, fik Britt et job og arbejde sammen med forældrene på farens lægepraksis. Det var en barn- og ungdom som kigger tilbage på med glæde og nostalgi. I dag har Britt startet en ny rejse som bioanalytiker og hun har allerede gjort sig erfaringer indenfor 2 sektioner i den biokemsiek afdeling, “præanalysen” og “hæmatologi”.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>MEDICINSTUDIET</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Britt har også læst på medicin studiet på universitet, men dropeede studet senere. Siden da har Britt haft en stor interesse for genetik og immunologi. På bioanalytiker studiet genfandt Britt sin store interesse for genetik og immunologi og kom bla. også på studieophold på immunologiske afdelinger og Blodbanken.</p>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div>
+            <h2>ARBEJDSPLADSEN</h2>
+
+            <section>
+                <h3>DET STÆRKE FÆLLESSKAB</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>I laboratoriets pulserende hjerte, samarbejder bioanalytikere i en symfoni af viden med læger, kemiker, biokemiker læger mm. Med præcision og smil deler de erfaringer, som er med til at skabe det kollegiale bånd. I fællesskab udforsker de ukendte stier, hvor hver analytisk triumf er en sejr for os alle. Bioanalytikere forener viden og god stemning, som afdelingen bygger på.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>BØRNENES VEN</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Bioanalytikerne på Horsens biokemiske afdeling, tager også blodprøver på børn og babyer i vores specielle “børnerum”. Her har vi et særligt fokus på at gøre oplevelsen behagelig for både forældrene og barnet. 
+                        <br><br>
+                        Det udsmykkede rum er med til at give børnene en følelse af tryghed og ro  og på den måde forbindes prøvetagningen med noget positivt. </p>
+                </div>
+            </section>
+
+            <section>
+                <h3>EN AFDELING I BEVÆGELSE</h3>
+                <div>
+                    <img src="" alt="">
+                    <p>Bioanalytikerne på Horsens biokemiske afdeling, tager også blodprøver på børn og babyer i vores specielle “børnerum”. Her har vi et særligt fokus på at gøre oplevelsen behagelig for både forældrene og barnet. 
+                        <br><br>
+                        Det udsmykkede rum er med til at give børnene en følelse af tryghed og ro  og på den måde forbindes prøvetagningen med noget positivt. </p>
+                </div>
+            </section>
+        </div>
+
+
+        <div>
+        <h2>FØLG EN BLODPRØVE</h2>
+
+            <section>
+                <img src="" alt="INDSÆT BILLEDE">
+                <div>
+                    <h3>TRIN 1: STASE</h3>
+                    <p>Sæt stase på armen for at gøre årene tydligere.</p>
+                </div>
+            </section>
+
+                <section>
+                    <img src="" alt="INDSÆT BILLEDE">
+                    <div>
+                        <h3>TRIN 2: SPRIT</h3>
+                        <p>Sprit egne hænder og patientens arm, for at sikre saniteten og mindske bakterie infektion ved indstik.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <img src="" alt="INDSÆT BILLEDE">
+                    <div>
+                        <h3>TRIN 3: STIK</h3>
+                        <p>Stik og vent til at flasken er fyldt.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <img src="" alt="INDSÆT BILLEDE">
+                    <div>
+                        <h3>TRIN 4: PLASTER</h3>
+                        <p>Sæt et stykke vat på indstik stedet for at stoppe blødningen.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>UDSTYRET</h3>
+                    <img src="media/img/infografik-(1).gif" alt="Infografik over redskab og udstyr der bruges til en blodprøve. Dette inkludere sprit, rør, vat, stase, spritservietter, rør holder og nåle">
+                </section>
+        </div>
+        
+
+
+
+
+
+    </div>
+</body>
+</html>
