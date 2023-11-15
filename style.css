@@ -111,12 +111,13 @@ header a svg{
 #storKurve{
     position: absolute;
     top: 0;
+    left:0;
     margin-top: 14px ;
 }
 #lilleKurve{
     position: absolute;
     bottom: 0px;
-    left:596px;
+    left:616px;
 }
 #startBoxKnapper{
     width: 80%;
@@ -145,14 +146,15 @@ header a svg{
 #baggrundsKurve{
     width: 100%;
     /* margin-top: 500px; */
-    height: 3365px;
+    height: 3300px;
     background-image: url(media/img/string_1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 section{
-    margin-top: 500px;
+    display: none;
+    margin-top: 100px;
     position: relative;
     z-index: 10;
     background-color: white;
@@ -167,6 +169,9 @@ section{
 }
 section div{
     width:50%
+}
+#testhøjde{
+    height: 1000px;
 }
 
 
@@ -193,7 +198,10 @@ section div{
     background-position: center;
     background-size: cover;
 }
-
+main{
+    position: relative;
+    z-index: -10;
+}
 
 
 
@@ -320,7 +328,6 @@ section div{
 }
 
 .boernText p{
-  
     font-size: 14pt;
     line-height: 40px;
     color:#AC354B;
