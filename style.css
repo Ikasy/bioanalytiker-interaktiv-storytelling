@@ -26,12 +26,18 @@ font-family: 'Quicksand', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+#testhøjde{
+    height: 1000px;
+}
+
+
 body{
     background-color: #FFF4EC;
 }
 
 h1{
-    color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
@@ -40,11 +46,18 @@ h2{
     color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
+    font-size: 40px; 
+    text-align: end;
 }
+#sidsteH{
+    text-align: start;
+}
+
 h3{
     color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
+    font-size: 28px;
 }
 
 p{
@@ -118,12 +131,7 @@ header a svg{
     bottom: -45px;
     left:583px;
 }
-#startBoxKnapper{
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
+
 header{
     width: 100%;
     height: 80px;
@@ -132,8 +140,6 @@ header{
     align-items: center;
     justify-content: center;
     gap: 50px;
-
-
 
     background-color: #ac354b75;
     position: sticky;
@@ -145,7 +151,7 @@ header a{
     text-align: center;
     
 }
-#startBoxKnapper a, header a{
+header a{
     padding: 15px;
     border-radius: 25px;
     color: white;
@@ -155,15 +161,12 @@ header a{
     background-color: #AC354B;
 }
 
-/* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
-#startBoxBloddraaber{
-    width: 80%;
-    margin: 0 auto;
-    text-align: end;
-}
 #lilleDraabe{
     margin-bottom: 20px;
 }
+
+/* ---------------------------------------- BAGGRUNDSBILLEDE & BLOBBILLEDER ---------------------------------------- */
+
 
 #baggrundsKurve{
     width: 100%;
@@ -174,265 +177,73 @@ header a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-section{
-    display: none;
-    margin-top: 100px;
-    position: relative;
-    z-index: 10;
-    background-color: white;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 40%;
-    height: fit-content;
-    border-radius: 200px;
-}
-section div{
-    width:50%
-}
-#testhøjde{
-    height: 1000px;
-}
-
-
-
-
-
-
-
-
-/* ---------------------------------------- ARBEJDSPLADSEN ---------------------------------------- */
-.mbArbejdspladsH1{
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.mbArbejdspladsP{
-    width: 10px;
-    border: solid green 2px;
-}
-
-#arbjedspladensMAIN{
-    background-image: url(media/img/string_3.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-main{
-    position: relative;
-    z-index: -10;
-}
-
-
-
-.faellesskabFoto{
-    /* display: flex;
-    justify-content: space-around; */
-    
-    margin-left: -220px;
-    margin-top: -700px;
-}
-
-.faellesskabFoto img{
-    border-radius: 50%;
-    position: relative;
+.indholdsSektion{
+    width: 80%;
+    margin: auto;
 }
 
 #storesFotoFaellesskab{
-    width: 35%;
-    height: 35%;
-    
-    margin-left: 1200px;
-    margin-top: 800px;
     z-index: 1;
 
 }
 
 #mellemFotoFaellesskab{
-    width: 22%;
-    height: 22%;
-    
-    margin-left: -700px;
-    margin-bottom: -200px;
     z-index: 2;
 }
 
 #lilleFotoFaellesskab{
-    width: 15%;
-    height: 15%;
-
-    margin-left: -50px;
-    margin-bottom: -150px;
     z-index: 2;
 }
 
-.faellesskabText{
-    width: 25%;
-    margin-top: -500px;
-    margin-left: 250px;
-
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 6px;
-    padding: 20px;
-    
-    /* border: solid #AC354B 2px; */
-}
-
-.faellesskabText h2{
-    padding-bottom: 20px;
-}
-
-.faellesskabText p{
-    /* text-align: justify;   */
-    font-size: 14pt;
-    line-height: 40px;
-
-    color:#AC354B;
-}
-
-
-
-
-
-
-
-.boernFoto{  
-    margin-top: 500px;
-    margin-left: 250px;
-}
-.boernFoto img{
-    border-radius: 50%;
-    position: relative;
-}
 
 #storesFotoBoern{
-    width: 35%;
-    height: 35%;
+
 }
 
 #mellemFotoBoern{
-    width: 25%;
-    height: 22%;
 
-    margin-bottom: -250px;
-    margin-left: -580px;
 
 }
 
 #lilleFotoBoern{
-    width: 18%;
-    height: 15%;
 
-    margin-bottom: -70px;
-    margin-left: -50px;
 }
-
-
-
-
-
-.boernText{
-    width: 25%;
-    
-    margin-top: -500px;
-    margin-left: 1050px;
-
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 6px;
-    padding: 20px;
-}
-
-
-.boernText h2{
-    padding-bottom: 20px;
-}
-
-.boernText p{
-    font-size: 14pt;
-    line-height: 40px;
-    color:#AC354B;
-}
-
-
-
-
-
-
-
-
-.afdelingFoto{
-    margin-top: -200px;
-    margin-left: -220px;
-}
-
-.afdelingFoto img{
-    border-radius: 50%;
-   
-    width: 100%;
-    height: auto;
-    transform: translate3d(10, 0, 0);
-    transition: transform 2.5s ease-in;
-}
-
-
-
 
 
 
 #storeFotoUndervisning{
-    width: 30%;
-    height: 30%;
-    
-    margin-left: 1200px;
-    margin-top: 800px;
+
 }
 
 #mellemFotoKage{
-    width: 22%;
-    height: 22%;
-    
-    margin-left: -700px;
-    margin-bottom: -250px;
+
 }
 
 #lilleFotoKantine{
-    width: 15%;
-    height: 15%;
-
-    margin-left: -50px;
-    margin-bottom: -150px;
     z-index: -5;
 }
 
+/* ---------------------------------------- VIDEOER ---------------------------------------- */
 
-.afdelingText{
+#bordertest{
     width: 30%;
-    
-    margin-top: -500px;
-    margin-left: 250px;
+    border: solid 2px aqua;
+    border-radius: 500px;
 
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 6px;
-    padding: 40px;
+}
+#brittvideo{
+    width: 500px;
+    height: fit-content;
 }
 
-
-.afdelingText h2{
-    padding-bottom: 20px;
+/* til små videoer under blodprøven */
+.rundVideo {
+    width: 300px; /* ændr størrelsen efter behov */
+    height: 300px; /* samme højde som bredden for at gøre den rund */
+    border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
+    object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
 }
-
-
-.afdelingText p{
-    font-size: 14pt;
-    line-height: 40px;
-
-    color:#AC354B;
-}
-
-
-
 
 
 
