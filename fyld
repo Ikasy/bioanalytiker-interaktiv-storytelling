@@ -1,0 +1,42 @@
+// Lyt efter scrollbegivenheder
+window.addEventListener('scroll', function() {
+    // Hent referencer til elementerne og containerne
+    //var elementToMove = document.getElementById('startBoxKnapper'); // Det element, der skal flyttes
+    var container1 = document.getElementById('startBox'); // Første container
+    var container2 = document.querySelector('nav'); // Anden container
+
+    const brittKnapper = document.getElementById("brittknapper");
+    const arbejdspladsKnapper = document.getElementById("arbejdspladsknapper");
+    const blodKnapper = document.getElementById("blodknapper");
+
+    // Få scrollpositionen på siden
+    var scrollPosition = window.scrollY;
+
+    // Få positionen af containerne på siden
+    var container1Position = container1.getBoundingClientRect(); // Position af container 1
+    var container2Position = container2.getBoundingClientRect(); // Position af container 2
+
+    // Tjek om elementet er synligt i container1, flyt det til container2
+    if (scrollPosition > container1Position.top && scrollPosition < container1Position.bottom) {
+        if (container2.childNodes.length > 0){
+        container2.removeChild(brittKnapper); // Fjern elementet fra container1
+        container2.removeChild(arbejdspladsKnapper); // Fjern elementet fra container1
+        container2.removeChild(blodKnapper); // Fjern elementet fra container1
+        }
+
+        container1.appendChild(brittKnapper); // Tilføj elementet til container2
+        container1.appendChild(arbejdspladsKnapper); // Tilføj elementet til container2
+        container1.appendChild(blodKnapper); // Tilføj elementet til container2
+    } 
+    // Tjek om elementet er synligt i container2, flyt det til container1
+    else if (scrollPosition > container2Position.top && scrollPosition < container2Position.bottom) {
+        container1.removeChild(brittKnapper); // Fjern elementet fra container1
+        container1.removeChild(arbejdspladsKnapper); // Fjern elementet fra container1
+        container1.removeChild(blodKnapper); // Fjern elementet fra container1
+        
+        container2.appendChild(brittKnapper); // Tilføj elementet til container2
+        container2.appendChild(arbejdspladsKnapper); // Tilføj elementet til container2
+        container2.appendChild(blodKnapper); // Tilføj elementet til container2
+    }
+});
+

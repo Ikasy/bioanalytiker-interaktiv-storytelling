@@ -54,7 +54,7 @@ p{
 }
 a{
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .mt{
@@ -87,7 +87,7 @@ header a svg{
     display: flex;
     z-index: -1;
     width: 100%;
-    height: 650px;
+    height: 625px;
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -110,25 +110,47 @@ header a svg{
 
 #storKurve{
     position: absolute;
-    top: 0;
+    top: 11px;
     left:0;
-    margin-top: 14px ;
 }
 #lilleKurve{
     position: absolute;
-    bottom: 0px;
-    left:616px;
+    bottom: -45px;
+    left:583px;
 }
 #startBoxKnapper{
     width: 80%;
     display: flex;
     justify-content: space-evenly;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+
+
+    background-color: #ac354b75;
+    position: sticky;
+    top: -1px;
 }
 
-#startBoxKnapper a{
+header a{
+    width: 180px;
+    text-align: center;
+    
+}
+#startBoxKnapper a, header a{
     padding: 15px;
     border-radius: 25px;
     color: white;
+    /* border: solid 2px white; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     background-color: #AC354B;
 }
@@ -146,8 +168,8 @@ header a svg{
 #baggrundsKurve{
     width: 100%;
     /* margin-top: 500px; */
-    height: 3300px;
-    background-image: url(media/img/string_1.svg);
+    height: 5000px;
+    background-image: url(media/img/string_6.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

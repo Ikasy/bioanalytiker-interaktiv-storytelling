@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll Element Flytter</title>
+</head>
+<body>
+
+<!-- Container 1 med det element, der skal flyttes -->
+<div id="container1" style="height: 650px; border: 1px solid #ccc;">
+  <div id="elementToMove" style="width: 100px; height: 100px; background-color: red;"></div>
+</div>
+
+<!-- Container 2, hvor elementet vil blive flyttet til -->
+<div id="container2" style="height: 92px; border: 1px solid #ccc;"></div>
+    <div style="height: 1000px;"></div>
+<script>
+  // Lyt efter scrollbegivenheder
+  window.addEventListener('scroll', function() {
+    // Hent referencer til elementerne og containerne
+    var elementToMove = document.getElementById('elementToMove'); // Det element, der skal flyttes
+    var container1 = document.getElementById('container1'); // Første container
+    var container2 = document.getElementById('container2'); // Anden container
+
+    // Få scrollpositionen på siden
+    var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+    // Få positionen af containerne på siden
+    var container1Position = container1.getBoundingClientRect(); // Position af container 1
+    var container2Position = container2.getBoundingClientRect(); // Position af container 2
+
+    // Tjek om elementet er synligt i container1, flyt det til container2
+    if (scrollPosition > container1Position.top && scrollPosition < container1Position.bottom) {
+      container2.removeChild(elementToMove); // Fjern elementet fra container1
+      container1.appendChild(elementToMove); // Tilføj elementet til container2
+    } 
+    // Tjek om elementet er synligt i container2, flyt det til container1
+    else if (scrollPosition > container2Position.top && scrollPosition < container2Position.bottom) {
+      container1.removeChild(elementToMove); // Fjern elementet fra container2
+      container2.appendChild(elementToMove); // Tilføj elementet til container1
+    }
+  });
+</script>
+
+</body>
+</html>
