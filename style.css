@@ -361,21 +361,23 @@ header a{
 #arbejdspladsH2{
     width: 30%;
     margin-top: 200px;
+    margin-left: 700px;
 }
 
 
 /*FÆLLESSKABE*/
 
 .faellesskabFoto{
-    padding-bottom: 500px;
+    padding-bottom: 300px;
+    margin-left: 150px;
 }
 
 #faellesskabSEC{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 #faellesskabSEC h3{
-    margin-left: 500px;
+    margin-left: 550px;
 }
 
 #faellesskabSEC img:nth-child(1){
@@ -387,18 +389,20 @@ header a{
 #faellesskabSEC img:nth-child(2){
     width: 300px;
     margin-left: -500px;
-    margin-top: 50px;
+    margin-bottom: -100px;
 
 }
 
 #faellesskabSEC img:nth-child(3){
     width: 200px;
+    margin-bottom: -100px;
+    margin-left: -20px;
+
 }
 
-
 .faellesskabFoto p{
-    margin-left: 700px;
-    margin-top: -300px;
+    margin-left: 400px;
+    margin-top: -375px;
 }
 
 
@@ -407,17 +411,44 @@ header a{
 
 /*BØRN*/
 
+.boernFoto{
+    margin-left: 550px;
+}
+
+#boernSEC h3{
+    margin-top: 200px;
+}
+
+#boernSEC p{
+    margin-top: -350px;
+    
+}
+
 #boernSEC img:nth-child(1){
     width: 400px;}
     
 #boernSEC img:nth-child(2){
-    width: 300px;}
+    width: 300px;
+    margin-left: -500px;
+    margin-bottom: -100px;
+}
     
 #boernSEC img:nth-child(3){
-    width: 200px;}
+    width: 200px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+
+
+
     
 
 /*AFDELING*/
+
+#afdelingSEC{
+    margin-top: 400px;
+}
 
 #afdelingSEC img:nth-child(1){
     width: 400px;}
@@ -426,5 +457,8 @@ header a{
     width: 300px;}
         
 #afdelingSEC img:nth-child(3){
-    width: 200px;}
+    width: 200px;
+    margin-left: -700px;
+    margin-bottom: -50px;
+}
         
