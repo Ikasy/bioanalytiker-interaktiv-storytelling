@@ -22,36 +22,55 @@ if (currentURL.includes("/britt")) {
     startBoxBilleder.style.backgroundImage = 'url("' + billeder[3] + '")';
 }
 
-// Tjekker at ID'erne er til stede på siden før den forsøger at gøre noget
-// Hvis ikke det var her ville JS ikke virke på nogen sider fordi den ikke kender ID'erne
-if(brittKnapper !== null || arbejdspladsKnapper !== null || blodKnapper !== null){
 
-    // Her kigger den på om musen er over Britt knappen og skifter billede
-    brittKnapper.onmouseover = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[3] + '")';
-    }
-    // Her kigger den på om musen er over arbejdsplads knappen og skifter billede
-    arbejdspladsKnapper.onmouseover = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[2] + '")';
-    }
-    // Her kigger den på om musen er over blod knappen og skifter billede
-    blodKnapper.onmouseover = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[1] + '")';
-    }  
+// Her kigger den på om musen er over Britt knappen og skifter billede
+brittKnapper.onmouseover = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[3] + '")';
+}
+// Her kigger den på om musen er over arbejdsplads knappen og skifter billede
+arbejdspladsKnapper.onmouseover = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[2] + '")';
+}
+// Her kigger den på om musen er over blod knappen og skifter billede
+blodKnapper.onmouseover = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[1] + '")';
+}  
     
 
-    // Her skifter billedet tilbage til det originale billede på forsiden
-    // når musen går væk fra knappen igen.
-    brittKnapper.onmouseleave = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
-    }
-    arbejdspladsKnapper.onmouseleave = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
-    }
-    blodKnapper.onmouseleave = function(){
-        startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
-    }
+// Her skifter billedet tilbage til det originale billede på forsiden
+// når musen går væk fra knappen igen.
+brittKnapper.onmouseleave = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
 }
+arbejdspladsKnapper.onmouseleave = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
+}
+blodKnapper.onmouseleave = function(){
+    startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
+}
+
+
+
+// Scroll smooth ned til elementer
+
+//laver en funkion kaldet scrollToSection, den får elementId når den bliver kalds
+function scrollToSection(elementId) {
+
+    //henter sektionen den skal sxroll til
+    const element = document.getElementById(elementId);
+    const offset = 250; // offset til headeren, kan justeres
+    const position = element.offsetTop - offset; //finder positionen . Element.offsetTop er toppen af elementet - den bestemte offset
+
+    //ruller ned til stedet og gør det smooth
+    window.scrollTo({
+        top: position,
+        behavior: "smooth"
+    });
+}
+
+brittKnapper.onclick = scrollToSection("")
+arbejdspladsKnapper.onclick = scrollToSection("")
+blodKnapper.onclick = scrollToSection("")
 
 
 
@@ -90,3 +109,5 @@ brittBil.onmouseleave = function(){
     brittLyd.pause();
     brittLyd.load();
 }
+
+
