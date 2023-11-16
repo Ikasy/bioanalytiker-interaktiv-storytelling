@@ -10,12 +10,7 @@
 
 </head>
 <body>
-        <!-- id="storKurve"
-    id="storKurve"
-    id="storKurve" -->
-    <!-- KURVE TIL VENSTRE -->
-
-    
+           
     <svg id="storKurve" width="498" height="364" viewBox="0 0 498 364" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M497 32.7127V32.9744C491.52 33.1355 486.056 32.545 480.675 30.931C475.936 29.5083 471.539 27.3609 467.29 24.8846C458.647 19.8448 450.622 13.4495 441.575 9.05729C434.17 5.46368 426.145 3.5444 418 3.09814C428.615 2.53443 439.28 4.38325 448.911 9.05729C457.972 13.4528 474.663 24.9048 474.663 24.9048C474.663 24.9048 483.285 29.5117 488.018 30.931C490.988 31.8235 493.989 32.3973 496.997 32.7127H497Z" fill="#AD354C"/>
         <path d="M355 34C368.311 13.7442 393.683 1.7674 418 3.10083C396.071 4.28305 374.368 15.7959 362.406 34H355Z" fill="#AD354C"/>
@@ -29,6 +24,7 @@
         <path d="M362 34C373.933 15.7923 395.587 4.28274 417.465 3.10052C428.152 2.52315 438.89 4.41678 448.586 9.20412C457.709 13.7062 474.514 25.4357 474.514 25.4357C474.514 25.4357 483.195 30.1543 487.96 31.608C490.95 32.5222 493.972 33.1099 497 33.4329" stroke="#AD354C" stroke-miterlimit="10"/>
         <path d="M1 363C1.35301 362.955 1.70948 362.91 2.06249 362.848C2.78582 362.734 3.50915 362.606 4.23248 362.451C27.4932 357.564 59.3507 331.023 56.5854 308.705C53.6921 285.341 40.4819 264.73 31.9093 242.796C23.3297 220.862 20.1803 193.689 35.3598 175.661C37.9208 172.632 41.0079 169.924 44.5727 168.236C45.7113 167.693 46.8915 167.258 48.127 166.951C65.3761 162.613 77.7627 182.893 83.8642 199.567C89.3705 214.614 94.8837 229.665 100.39 244.713C104.187 255.088 108.315 265.949 116.774 273.074C122.868 278.21 130.372 280.351 138.055 280.133C153.695 279.681 170.054 269.413 176.682 254.614C186.566 232.546 179.364 206.115 165.964 185.977C152.563 165.846 133.639 150.114 117.165 132.397C100.684 114.68 86.003 93.3849 84.4353 69.2612C82.4902 39.4184 104.969 10.3422 133.421 2.85472C138.273 1.57687 143.295 0.924137 148.403 1.00702C172.155 1.37656 193.142 15.1911 210 32.48" stroke="#AD354C" stroke-miterlimit="10"/>
         </svg>
+        
             
     <!-- KURVE TIL HØJRE -->
     <svg id="lilleKurve" width="225" height="309" viewBox="0 0 274 309" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,18 +64,14 @@
         <a id="arbejdspladsknapper" href="">ARBEJDSPLADSEN</a>
         <a id="blodknapper" href="">FØLG EN BLODPRØVE</a>
     </header>
-    
+
     <a id="tilbageTilTop" href="">
         <svg width="35" height="35" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.0390625 20.9161V33.6536L19.4206 18.5733L19.5033 50.0041H31.1688L31.1797 18.5733L50.0238 33.2453L50.0391 20.9198L26.2554 0.618574C25.2806 -0.214379 23.6682 -0.198046 22.7151 0.653054L0.0390625 20.9161Z" fill="#AC2242"/>
             </svg>
-            
-            
     </a>
 
-
-
-
+    
     <div id="baggrundsKurve">
         
         <div class="indholdsSektionET">
@@ -132,13 +124,10 @@
                     <p>Britt har også læst på medicin studiet på universitet, men droppede studiet senere. Siden da har Britt haft en stor interesse for genetik og immunologi. På bioanalytiker studiet genfandt Britt sin store interesse for genetik og immunologi og kom bla. også på studieophold på immunologiske afdelinger og Blodbanken.</p>
                 </div>
             </section>
+            
+            <video src="media/vid/personlig.mp4"controls id="personligVIDEO"></video>
         </div>
 
-
-
-        <div id="personligVIDEO">
-            <h1>HER SKAL VIDEON VÆRE</h1>
-        </div>
 
 
 
@@ -199,38 +188,43 @@
 
 
 
-        <div id="indholdsSektionTRE">
+        <div class="indholdsSektionTRE">
         <h2 id="sidsteH">FØLG EN BLODPRØVE</h2>
 
-            <section >
-                <video class="rundVideo" src="media/gif_1.mp4" muted loop></video>
-                <div>
-                    <h3>TRIN 1: STASE</h3>
+            <section id="trin1SEC">
+                <div class="trinTEXT">
+                <h3>TRIN 1: STASE</h3>
                     <p>Sæt stase på armen for at gøre årene tydligere.</p>
+                </div>
+                    <div>
+                <video class="rundVideo" src="media/gif_1.mp4" muted loop></video>
+
                 </div>
             </section>
 
-                <section >
-                    <video class="rundVideo" src="media/gif_2.mp4"  muted loop></video>
-                    <div>
-                        <h3>TRIN 2: SPRIT</h3>
+                <section id="trin2SEC">
+                    <h3>TRIN 2: SPRIT</h3>
                         <p>Sprit egne hænder og patientens arm, for at sikre saniteten og mindske bakterie infektion ved indstik.</p>
+                    <div>
+                        <video class="rundVideo" src="media/gif_2.mp4"  muted loop></video>
                     </div>
                 </section>
 
-                <section>
-                    <video class="rundVideo" src="media/gif_3.mp4"  muted loop></video>
-                    <div>
-                        <h3>TRIN 3: STIK</h3>
+                <section id="trin3SEC">
+                    <h3>TRIN 3: STIK</h3>
                         <p>Stik og vent til at flasken er fyldt.</p>
+                    <div>
+                        <video class="rundVideo" src="media/gif_3.mp4"  muted loop></video>
+
                     </div>
                 </section>
-
-                <section>
-                    <video class="rundVideo" src="media/gif_4.mp4"  muted loop></video>
-                    <div>
-                        <h3>TRIN 4: PLASTER</h3>
+                
+                <section id="trin4SEC">
+                    <h3>TRIN 4: PLASTER</h3>
                         <p>Sæt et stykke vat på indstik stedet for at stoppe blødningen.</p>
+                    <div>
+                        <video class="rundVideo" src="media/gif_4.mp4"  muted loop></video>
+
                     </div>
                 </section>
 
@@ -253,7 +247,5 @@
 
 
     </div>
-
-
 </body>
 </html>
