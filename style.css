@@ -26,6 +26,26 @@ font-family: 'Quicksand', sans-serif;
     right: 10px;
 }
 
+/*---------------------------- Scrollbar ----------------------------*/
+/* scrollbar. */
+::-webkit-scrollbar {
+    width: 10px;
+    border: #AC354B 1px solid;
+    background-color: #ac354b3a;
+}
+
+/* the draggable scrolling handle. */
+::-webkit-scrollbar-thumb {
+    background-color: #AC354B;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(149, 38, 58);
+}
+
+
 /* ---------------------------------------- GENERELLE REGLER ---------------------------------------- */
 
 *{
