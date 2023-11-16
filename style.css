@@ -129,8 +129,8 @@ header a svg{
 }
 #lilleKurve{
     position: absolute;
-    bottom: -45px;
-    left:583px;
+    bottom: -99px;
+    left:611px;
 }
 
 header{
@@ -171,7 +171,8 @@ header a{
 
 #baggrundsKurve{
     width: 100%;
-    background-image: url(media/img/infographic/snore/finalstring.svg);
+    height: 9500px;
+    background-image: url(media/img/infographic/snore/finalstring_1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,6 +239,9 @@ header a{
 #brittvideo{
     width: 40%;
     height: fit-content;
+    border-radius: 30px;  
+    margin-top: 250px;
+    margin-left: 50px; 
 }
 
 
@@ -249,28 +253,51 @@ header a{
 }
 #brittsHIS{
     width: 75%;
+    padding-top: 150px;
 }
 
 #brittsHISbrod{
-    margin-left: 600px;
-    margin-top: -200px;
+    width: 50%;
+    margin-left: 525px;
+    margin-top: -500px;
 }
 
+
+
+
+
+
+
+
 #efterskoleSEC{
-    margin-top: 100px;
-    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 580px;
+    margin-right: 450px;
+    
 }
 
 #efterskoleSEC img{
-    width: 40%;
-    margin-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    
 }
 
+#efterskoleSEC h3{
+    margin-left: 200px;
+}
+
+
+
+
+
+
 #apotekSEC{
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 50px;
+    margin-top: -80px;
 }
 
 #apotekSEC h3{
@@ -278,13 +305,12 @@ header a{
 }
 
 #apotekSEC p{
-    margin-left: 100px;
+   margin-top: -100px;
 }
 
 #apotekSEC img{
-    width: 25%;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    width: 250px;
+    margin-left: -100px;
 }
 
 
@@ -338,8 +364,6 @@ header a{
 
 
 #personligVIDEO{
-    border: solid 2px greenyellow;
-    background-color: aqua;
     width: 500px;
     height: 500px;
     margin-left: 500px;
@@ -491,13 +515,13 @@ header a{
     margin-top: 4%;
 }
 
-#blodLyd{
+#lyd{
     margin-top: 200px;
     margin-bottom: 100px;
     flex-direction: column;    
 }
 
-#blodLyd img{
+#lyd img{
     width: 400px;
     height: 400px;
     border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
