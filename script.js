@@ -142,3 +142,21 @@ brittBil.onmouseleave = function(){
 }
 
 
+
+
+
+
+
+
+
+// IKONER //
+
+
+// EFTERSKOLE
+
+const efterskoleFOTO = document.getElementById("aadalFOTO");
+
+
+
+
+

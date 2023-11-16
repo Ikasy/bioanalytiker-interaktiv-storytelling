@@ -515,9 +515,7 @@ margin-left: 200px;
     margin-top: 50px;
 }
 
-#rundVideo1{
-    margin-right: 100px;
-}
+
 .trinTEXT{
     display: flex;
     flex-direction: column;
@@ -541,25 +539,33 @@ margin-left: 200px;
 #infoGrafik{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
     flex-direction: column;
+    width: 100%;
+    align-items:center;
+    margin-top: 200px;
 }
 
-#infoGrafik img{
-    width: 750px;
-    margin-top: 4%;
-}
 
-#blodLyd{
+
+
+
+#blodLyd{   
     margin-top: 150px;
     margin-bottom: 100px;
-    flex-direction: column;    
+    align-items: center;
 }
 
 #blodLyd img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
     object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
-    margin-top: 4%;
+    margin-right: 250px;
+    cursor: pointer;
 }
+
+#blodLyd h3{
+    margin-top: -400px;
+    margin-left: 200px;
+}
+
