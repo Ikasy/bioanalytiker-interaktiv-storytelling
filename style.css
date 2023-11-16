@@ -130,7 +130,7 @@ header a svg {
 }
 
 #startBoxTekst P {
-    width: 80%;
+    width: 75%;
 }
 
 #storKurve {
@@ -142,7 +142,7 @@ header a svg {
 #lilleKurve {
     position: absolute;
     bottom: -99px;
-    left: 611px;
+    left: 613.5px;
 }
 
 header {
@@ -252,6 +252,44 @@ header a {
     margin-left: 300px;
     margin-top: -125px;
 }
+
+
+
+#moonIMG{
+    position: relative;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-iteration-count: 1000;
+}
+
+@keyframes moonAni{
+    0%   {left:0px; top:0px;}
+    25%  {left:20px; top:0px;}
+    50%  {left:20px; top:0px;}
+    100% {left:0px; top:0px;} }
+    
+
+
+
+    #medicinIMG{
+        position: relative;
+        animation-name: medicinAni;
+        animation-duration: 4s;
+        animation-iteration-count: 1000;
+    }
+    
+    @keyframes medicinAni{
+        0%   {left:0px; top:0px;}
+        25%  {left:0px; top:20px;}
+        50%  {left:0px; top:20px;}
+        100% {left:0px; top:0px;}
+    }
+        
+
+
+
+
+
 
 #apotekSEC {
     width: 50%;
@@ -510,7 +548,7 @@ header a {
 }
 
 #trinFire {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 #rundVideo1 {
@@ -531,7 +569,6 @@ header a {
 
 #rundVideo4 {
 
-
     margin-right: 100px;
     margin-bottom: 100px;
 }
@@ -543,7 +580,7 @@ header a {
     flex-direction: column;
     width: 100%;
     align-items:center;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 
