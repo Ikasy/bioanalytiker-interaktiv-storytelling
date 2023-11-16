@@ -237,7 +237,7 @@ header a{
 
 }
 #brittvideo{
-    width: 40%;
+    width: 50%;
     height: fit-content;
     border-radius: 30px;  
     margin-top: 250px;
@@ -301,70 +301,73 @@ header a{
 
 
 #apotekSEC{
-    margin-left: 50px;
-    margin-top: 300px;
-}
-
-#apotekSEC h3{
-    margin-left: 75px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 350px;
+    margin-left: 300px;
+    
+   
 }
 
 #apotekSEC p{
-   margin-top: -100px;
+    margin-left: 300px;
+    margin-top: -200px;
 }
 
 #apotekSEC img{
     width: 250px;
-    margin-left: -100px;
 }
+
+
+
+
 
 
 #laegePraksisSEC{
-    margin-left: 100px;
-    margin-top: 250px;
+    margin-top: 400px;
+    margin-left: 550px;
+   
 }
 
 #laegePraksisSEC img{
-    width: 20%;
-    margin-left: 600px;
-    padding-top: 50px;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: 100px;
 
-}
-
-#laegePraksisSEC h3{
-    margin-top: -100px;
-    margin-left: 400px;
 }
 
 #laegePraksisSEC p{
-    margin-top: -300px;
-    margin-left: 150px;
+    margin-top: -380px;
+    margin-left: -60px;
 }
 
 
+
+
+
+
+
+
 #medicinSEC{
-    margin-top: 100px;
-    margin-left: 300px;
-    padding-bottom: 200px;
+margin-top: 450px;
+margin-left: -50px;  
 }
 
 
 #medicinSEC h3{
-    margin-left: 150px;
-    padding-top: 100px;
+ 
 }
 
 #medicinSEC img{
-    width: 30%;
-    margin-left: -50px;
-    margin-top: 50px;
+    width: 200px;
+    
+   
 }
 
 #medicinSEC p{
-    margin-left: 350px;
-    margin-top: -250px;
-
-
+ 
 }
 
 
