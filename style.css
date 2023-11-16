@@ -168,16 +168,16 @@ header a{
 
 /* ---------------------------------------- BAGGRUNDSBILLEDE & BLOBBILLEDER ---------------------------------------- */
 
-
+/* 
 #baggrundsKurve{
-    width: 100%;
+    width: 100%; */
     /* margin-top: 500px; */
-    height: 5000px;
+    /* height: 5000px;
     background-image: url(media/img/string_6.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .indholdsSektionET, .indholdsSektionTO, .indholdsSektionTRE{
     width: 80%;
@@ -240,14 +240,6 @@ header a{
 #brittvideo{
     width: 40%;
     height: fit-content;
-}
-
-/* til små videoer under blodprøven */
-.rundVideo {
-    width: 300px; /* ændr størrelsen efter behov */
-    height: 300px; /* samme højde som bredden for at gøre den rund */
-    border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
-    object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
 }
 
 
@@ -454,7 +446,8 @@ header a{
     width: 400px;}
         
 #afdelingSEC img:nth-child(2){
-    width: 300px;}
+    width: 300px;
+}
         
 #afdelingSEC img:nth-child(3){
     width: 200px;
@@ -462,3 +455,54 @@ header a{
     margin-bottom: -50px;
 }
         
+
+
+/* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
+.indholdsSektionTRE{
+    margin-top: 200px;
+}
+
+.indholdsSektionTRE section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rundVideo{
+    margin-top: 4%;
+}
+
+/* til små videoer under blodprøven */
+.rundVideo video {
+    width: 300px; /* ændr størrelsen efter behov */
+    height: 300px; /* samme højde som bredden for at gøre den rund */
+    border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
+    object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
+}
+
+
+
+
+/* ---------------------------------------- UDSTYR (INFOGRAFIK) ---------------------------------------- */
+#infoGrafik{
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+#infoGrafik img{
+    width: 70%;
+    margin-top: 4%;
+}
+
+#blodLyd{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    flex-direction: column;    
+}
+
+#blodLyd img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
+    object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
+    margin-top: 4%;
+}
