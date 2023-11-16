@@ -78,7 +78,7 @@ a{
     margin-bottom: 50px;
 }
 
-/* ---------------------------------------- JULIES KODE ---------------------------------------- */
+/* ---------------------------------------- TILBAGE TIL TOP ---------------------------------------- */
 
 #tilbageTilTop{
     display: none;
@@ -194,48 +194,6 @@ header a{
 .indholdsSektionTO img{
     border-radius: 50%;
 }
-
-#storesFotoFaellesskab{
-    z-index: 1;
-
-}
-
-#mellemFotoFaellesskab{
-    z-index: 2;
-}
-
-#lilleFotoFaellesskab{
-    z-index: 2;
-}
-
-
-#storesFotoBoern{
-
-}
-
-#mellemFotoBoern{
-
-
-}
-
-#lilleFotoBoern{
-
-}
-
-
-
-#storeFotoUndervisning{
-
-}
-
-#mellemFotoKage{
-
-}
-
-#lilleFotoKantine{
-    z-index: -5;
-}
-
 /* ---------------------------------------- VIDEOER ---------------------------------------- */
 
 #bordertest{
@@ -545,10 +503,17 @@ margin-left: 200px;
 }
 
 
-#trin{
+.trinTEXT{
     display: flex;
     flex-direction: column;
+
+    margin-top: 100px;
+    margin-left: -100px;
 }
+
+.trinTEXT
+
+
 
 
 
