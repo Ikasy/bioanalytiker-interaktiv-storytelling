@@ -274,22 +274,27 @@ header a{
     flex-direction: column;
     align-items: end;
     margin-top: 580px;
-    margin-right: 450px;
     
 }
 
 #efterskoleSEC img{
     width: 250px;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-right: 600px;
 
     
 }
 
 #efterskoleSEC h3{
-    margin-left: 200px;
+    margin-right: 400px;
 }
 
+
+#efterskoleSEC p{
+    margin-left: 300px;
+    margin-top: -125px;
+}
 
 
 
@@ -297,7 +302,7 @@ header a{
 
 #apotekSEC{
     margin-left: 50px;
-    margin-top: -80px;
+    margin-top: 300px;
 }
 
 #apotekSEC h3{
