@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand&display=swap');
 /* 
 
-
 font-family: 'Fjalla One', sans-serif;
 font-kerning: 3%
 
-
 font-family: 'Quicksand', sans-serif;*/
-
-
-
-
 
 /*---------------------------- Scrollbar ----------------------------*/
 /* scrollbar. */
@@ -31,83 +25,81 @@ font-family: 'Quicksand', sans-serif;*/
     background-color: rgb(149, 38, 58);
 }
 
-
 /* ---------------------------------------- GENERELLE REGLER ---------------------------------------- */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-#testhøjde{
+#testhøjde {
     height: 1000px;
 }
 
-
-body{
+body {
     background-color: #FFF4EC;
 }
 
-h1{
+h1 {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
 }
-h2{
+
+h2 {
     color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
-    font-size: 40px; 
+    font-size: 40px;
     text-align: end;
 }
-#sidsteH{
+
+#sidsteH {
     text-align: start;
 }
 
-h3{
+h3 {
     color: #AC354B;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 3px;
     font-size: 28px;
 }
 
-p{
+p {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     width: 400px;
-
 }
-a{
+
+a {
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
 }
 
-.mt{
+.mt {
     margin-top: 50px;
 }
-.mb{
+
+.mb {
     margin-bottom: 50px;
 }
 
 /* ---------------------------------------- TILBAGE TIL TOP ---------------------------------------- */
-
-#tilbageTilTop{
+#tilbageTilTop {
     display: none;
     position: fixed;
     bottom: 10px;
     right: 10px;
 }
 
-
 /* ---------------------------------------- HEADER ---------------------------------------- */
-header{
+header {
     position: fixed;
     z-index: 100;
 }
 
-header a svg{
+header a svg {
     margin: 10px;
     padding: 5px;
     border: solid #AC354B 2px;
@@ -115,9 +107,8 @@ header a svg{
     background-color: #FFF4EC;
 }
 
-
 /* ---------------------------------------- FORSIDE ---------------------------------------- */
-#startBox{
+#startBox {
     margin-top: 45px;
     display: flex;
     z-index: -1;
@@ -127,7 +118,7 @@ header a svg{
     background-repeat: no-repeat;
 }
 
-#startBoxTekst{
+#startBoxTekst {
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -136,25 +127,25 @@ header a svg{
 
     background-color: white;
     border-radius: 0px 100px 100px 0px;
-
 }
 
-#startBoxTekst P{
+#startBoxTekst P {
     width: 80%;
 }
 
-#storKurve{
+#storKurve {
     position: absolute;
     top: 11px;
-    left:0;
-}
-#lilleKurve{
-    position: absolute;
-    bottom: -99px;
-    left:611px;
+    left: 0;
 }
 
-header{
+#lilleKurve {
+    position: absolute;
+    bottom: -99px;
+    left: 611px;
+}
+
+header {
     width: 100%;
     height: 80px;
 
@@ -168,12 +159,12 @@ header{
     top: -1px;
 }
 
-header a{
+header a {
     width: 180px;
     text-align: center;
-    
 }
-header a{
+
+header a {
     padding: 15px;
     border-radius: 25px;
     color: white;
@@ -183,14 +174,12 @@ header a{
     background-color: #AC354B;
 }
 
-#lilleDraabe{
+#lilleDraabe {
     margin-bottom: 20px;
 }
 
 /* ---------------------------------------- BAGGRUNDSBILLEDE & BLOBBILLEDER ---------------------------------------- */
-
-
-#baggrundsKurve{
+#baggrundsKurve {
     width: 100%;
     height: 9500px;
     background-image: url(media/img/infographic/snore/finalstring_1.svg);
@@ -199,156 +188,125 @@ header a{
     background-size: cover;
 }
 
-.indholdsSektionET, .indholdsSektionTO, .indholdsSektionTRE{
+.indholdsSektionET,
+.indholdsSektionTO,
+.indholdsSektionTRE {
     width: 80%;
     margin: auto;
 }
 
-.indholdsSektionTO img{
+.indholdsSektionTO img {
     border-radius: 50%;
 }
-/* ---------------------------------------- VIDEOER ---------------------------------------- */
 
-#bordertest{
+/* ---------------------------------------- VIDEOER ---------------------------------------- */
+#bordertest {
     width: 30%;
     border: solid 2px aqua;
     border-radius: 500px;
-
 }
-#brittvideo{
+
+#brittvideo {
     width: 50%;
     height: fit-content;
-    border-radius: 30px;  
+    border-radius: 30px;
     margin-top: 250px;
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 
-
 /* ---------------------------------------- IKONER ---------------------------------------- */
-
-
 .indholdsSektionET img {
     height: fit-content;
 }
-#brittsHIS{
+
+#brittsHIS {
     width: 75%;
     padding-top: 150px;
 }
 
-#brittsHISbrod{
+#brittsHISbrod {
     width: 50%;
     margin-left: 525px;
     margin-top: -500px;
 }
 
-
-
-
-
-
-
-
-#efterskoleSEC{
+#efterskoleSEC {
     display: flex;
     flex-direction: column;
     align-items: end;
     margin-top: 580px;
-    
 }
 
-#efterskoleSEC img{
+#efterskoleSEC img {
     width: 250px;
     border-radius: 10px;
     margin-top: 30px;
     margin-right: 600px;
-
-    
 }
 
-#efterskoleSEC h3{
+#efterskoleSEC h3 {
     margin-right: 400px;
 }
 
-
-#efterskoleSEC p{
+#efterskoleSEC p {
     margin-left: 300px;
     margin-top: -125px;
 }
 
-
-
-
-
-#apotekSEC{
+#apotekSEC {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: end;
     margin-top: 350px;
     margin-left: 300px;
-    
-   
 }
 
-#apotekSEC p{
+#apotekSEC p {
     margin-left: 300px;
     margin-top: -200px;
 }
 
-#apotekSEC img{
+#apotekSEC img {
     width: 250px;
 }
 
-
-
-
-
-#laegePraksisSEC{
+#laegePraksisSEC {
     margin-top: 400px;
     margin-left: 550px;
-   
+
 }
 
-#laegePraksisSEC img{
+#laegePraksisSEC img {
     width: 200px;
     margin-left: -100px;
     margin-top: 100px;
-
 }
 
-#laegePraksisSEC p{
+#laegePraksisSEC p {
     margin-top: -380px;
     margin-left: -60px;
 }
 
-
-
-
-
-
-
-
-#medicinSEC{
-margin-top: 600px;
-margin-left: 200px;  
+#medicinSEC {
+    margin-top: 600px;
+    margin-left: 200px;
 }
 
-#medicinSEC img{
+#medicinSEC img {
     width: 200px;
     margin-left: -200px;
     transform: rotate(-20deg);
-    
-   
 }
 
-#medicinSEC p{
+#medicinSEC p {
     width: 500px;
     margin-top: -120px;
     margin-left: 150px;
 }
 
 /*PERSONLING VIDEO AF BRITT*/
-#personligVIDEO{
+#personligVIDEO {
     width: 50%;
     height: auto;
     margin-left: 500px;
@@ -356,187 +314,196 @@ margin-left: 200px;
     border-radius: 30px;
 }
 
-
-
-
-
-
-
 /* ---------------------------------------- ARBEJDSPLADSEN ---------------------------------------- */
-#arbejdspladsH2{
+#arbejdspladsH2 {
     width: 200px;
     margin-top: 500px;
     margin-left: 500px;
 }
 
-
-/*FÆLLESSKABE*/
-
-.faellesskabFoto{
+/*FÆLLESSKAB*/
+.faellesskabFoto {
     padding-bottom: 300px;
     margin-left: 150px;
 }
 
-#faellesskabSEC{
+#faellesskabSEC {
     margin-top: 100px;
 }
 
-#faellesskabSEC h3{
+#faellesskabSEC h3 {
     margin-left: 600px;
 }
 
-#faellesskabSEC img:nth-child(1){
+#faellesskabSEC img:nth-child(1) {
     width: 400px;
     margin-left: -50px;
-
 }
 
-#faellesskabSEC img:nth-child(2){
+#faellesskabSEC img:nth-child(2) {
     width: 300px;
     margin-left: -500px;
     margin-bottom: -100px;
-
 }
 
-#faellesskabSEC img:nth-child(3){
+#faellesskabSEC img:nth-child(3) {
     width: 200px;
     margin-bottom: -100px;
     margin-left: -20px;
-
 }
 
-.faellesskabFoto p{
+.faellesskabFoto p {
     margin-left: 550px;
     margin-top: -375px;
 }
 
-
-
-
-
 /*BØRN*/
-
-.boernFoto{
+.boernFoto {
     margin-left: 550px;
 }
 
-#boernSEC h3{
+#boernSEC h3 {
     margin-top: 200px;
 }
 
-#boernSEC p{
+#boernSEC p {
     margin-top: -350px;
-    
 }
 
-#boernSEC img:nth-child(1){
-    width: 400px;}
-    
-#boernSEC img:nth-child(2){
+#boernSEC img:nth-child(1) {
+    width: 400px;
+}
+
+#boernSEC img:nth-child(2) {
     width: 300px;
     margin-left: -500px;
     margin-bottom: -110px;
 }
-    
-#boernSEC img:nth-child(3){
+
+#boernSEC img:nth-child(3) {
     width: 200px;
     margin-bottom: -40px;
     margin-left: -23px;
-
 }
 
-
-
-
-    
-
 /*AFDELING*/
-
-#afdelingSEC{
+#afdelingSEC {
     margin-top: 700px;
 }
 
-.afdelingFoto{
+.afdelingFoto {
     display: flex;
     flex-direction: column;
     margin-left: 920px;
 }
 
-
-#afdelingSEC h3{
+#afdelingSEC h3 {
     width: 200px;
     margin-top: -200px;
 }
-#afdelingSEC p{
+
+#afdelingSEC p {
     width: 550px;
     margin-left: -50px;
     margin-top: -100px;
 }
 
+#afdelingSEC img:nth-child(1) {
+    width: 400px;
+}
 
-
-
-
-#afdelingSEC img:nth-child(1){
-    width: 400px;}
-        
-#afdelingSEC img:nth-child(2){
+#afdelingSEC img:nth-child(2) {
     width: 250px;
     margin-top: -150px;
     margin-left: -50px;
-   
 }
-        
-#afdelingSEC img:nth-child(3){
+
+#afdelingSEC img:nth-child(3) {
     width: 150px;
     margin-top: -360px;
     margin-left: -100px;
     z-index: 10;
 }
-        
-
 
 /* ---------------------------------------- FØLG EN BLODPRØVE ---------------------------------------- */
-.indholdsSektionTRE{
+.indholdsSektionTRE {
     margin-top: 600px;
 }
 
-.indholdsSektionTRE section{
+.indholdsSektionTRE section {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
 
 /* til små videoer under blodprøven */
-.rundVideo{
-    width: 300px; /* ændr størrelsen efter behov */
-    height: 300px; /* samme højde som bredden for at gøre den rund */
-    border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
-    object-fit: cover; /* justerer videoens størrelse for at passe til det runde område */
-    margin-top: 50px;
+.rundVideo {
+    width: 300px;
+    /* ændr størrelsen efter behov */
+    height: 300px;
+    /* samme højde som bredden for at gøre den rund */
+    border-radius: 50%;
+    /* gør videoen rund ved at bruge en border-radius på 50% */
+    object-fit: cover;
+    /* justerer videoens størrelse for at passe til det runde område */
 }
 
+#sidsteH {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-.trinTEXT{
-    display: flex;
-    flex-direction: column;
-
+.trinText {
     margin-top: 100px;
     margin-left: -100px;
 }
 
+.trinText p {
+    width: 250px;
+}
+
+#trinEt {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+#trinTo {
+    margin-top: 225px;
+}
+
+#trinTre {
+    margin-top: 250px;
+    margin-right: -50px;
+}
+
+#trinFire {
+    margin-top: 150px;
+}
+
+#rundVideo1 {
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+
+#rundVideo2 {
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+#rundVideo3 {
+    margin-right: 700px;
+    margin-bottom: 175px;
+}
+
+#rundVideo4 {
 
 
-
-
-
-
-
-
-
-
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
 
 /* ---------------------------------------- UDSTYR (INFOGRAFIK) ---------------------------------------- */
-#infoGrafik{
+#infoGrafik {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -544,8 +511,6 @@ margin-left: 200px;
     align-items:center;
     margin-top: 200px;
 }
-
-
 
 
 
@@ -569,3 +534,7 @@ margin-left: 200px;
     margin-left: 200px;
 }
 
+#infoGrafik img {
+    width: 750px;
+    margin-top: 4%;
+}
