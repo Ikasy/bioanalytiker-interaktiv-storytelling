@@ -4,6 +4,8 @@ const startBoxBilleder = document.getElementById("startBox");
 const brittKnapper = document.getElementById("brittknapper");
 const arbejdspladsKnapper = document.getElementById("arbejdspladsknapper");
 const blodKnapper = document.getElementById("blodknapper");
+const tilbageTilTop = document.getElementById("tilbageTilTop");
+const body = document.querySelector("body");
 
 // Henter URL'en på den side man er på lige nu
 var currentURL = window.location.href;
@@ -58,7 +60,7 @@ function scrollToSection(elementId) {
 
     //henter sektionen den skal sxroll til
     const element = document.getElementById(elementId);
-    const offset = 250; // offset til headeren, kan justeres
+    const offset = 100; // offset til headeren, kan justeres
     const position = element.offsetTop - offset; //finder positionen . Element.offsetTop er toppen af elementet - den bestemte offset
 
     //ruller ned til stedet og gør det smooth
@@ -68,9 +70,38 @@ function scrollToSection(elementId) {
     });
 }
 
-brittKnapper.onclick = scrollToSection("")
-arbejdspladsKnapper.onclick = scrollToSection("")
-blodKnapper.onclick = scrollToSection("")
+// AKTIVERE SCROLLS
+brittKnapper.onclick = function(event){
+    event.preventDefault();
+    scrollToSection("brittsHIS")
+}
+arbejdspladsKnapper.onclick = function(event){
+    event.preventDefault();
+    scrollToSection("arbejdspladsH2")
+}
+blodKnapper.onclick = function(event){
+    event.preventDefault();
+    scrollToSection("sidsteH")
+}
+tilbageTilTop.onclick = function(event){
+    event.preventDefault();
+    scrollToSection("startBox")
+}
+
+let scrollPosition; 
+
+
+body.onscroll = function(){
+    scrollPosition = Math.round(window.scrollY);
+    console.log(scrollPosition);
+    if (scrollPosition > 670){
+        tilbageTilTop.style.display = "block";
+    }
+    else{
+        tilbageTilTop.style.display = "none";
+        
+    }
+}
 
 
 
