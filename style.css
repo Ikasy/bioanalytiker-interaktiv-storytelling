@@ -497,12 +497,8 @@ margin-left: -50px;
     justify-content: space-around;
 }
 
-.rundVideo{
-    margin-top: 4%;
-}
-
 /* til små videoer under blodprøven */
-.rundVideo video {
+.rundVideo{
     width: 300px; /* ændr størrelsen efter behov */
     height: 300px; /* samme højde som bredden for at gøre den rund */
     border-radius: 50%; /* gør videoen rund ved at bruge en border-radius på 50% */
