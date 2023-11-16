@@ -55,4 +55,38 @@ if(brittKnapper !== null || arbejdspladsKnapper !== null || blodKnapper !== null
 
 
 
-  
+// Gif videoer der skal afspilles
+
+//henter alle videoerne med deres klasse
+const gifs = document.getElementsByClassName("rundVideo");
+
+//For loop(løkke) laver en lokal variable. Tjekker hvor mange videoer der er
+//Og køre koden hvis der er flere videoer, og når den har kørt koden gør den det igen
+//denne gør at videoerne starter når man hover
+for (let i = 0; i < gifs.length; i++) {
+    gifs[i].onmouseover = function(){
+        gifs[i].play();
+    }
+}
+//denne gør at videoerne stopper når man ikke længere hover
+for (let i = 0; i < gifs.length; i++) {
+    gifs[i].onmouseleave = function(){
+        gifs[i].pause();
+    }
+}
+
+
+// Britt Lyden bliver hentet 
+const brittLyd = document.getElementById("brittLyd");
+const brittBil = document.getElementById("brittBillede");
+
+//På hover skal den afspille
+brittBil.onmouseover = function(){
+    brittLyd.play();
+}
+
+// Når man stopper med hover stopper lyden og genstarter
+brittBil.onmouseleave = function(){
+    brittLyd.pause();
+    brittLyd.load();
+}
