@@ -168,16 +168,14 @@ header a{
 
 /* ---------------------------------------- BAGGRUNDSBILLEDE & BLOBBILLEDER ---------------------------------------- */
 
-/* 
+
 #baggrundsKurve{
-    width: 100%; */
-    /* margin-top: 500px; */
-    /* height: 5000px;
-    background-image: url(media/img/string_6.svg);
+    width: 100%;
+    background-image: url(media/img/infographic/snore/finalstring.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 .indholdsSektionET, .indholdsSektionTO, .indholdsSektionTRE{
     width: 80%;
