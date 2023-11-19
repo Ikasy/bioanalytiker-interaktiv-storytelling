@@ -11,7 +11,7 @@ const body = document.querySelector("body");
 var currentURL = window.location.href;
 
 // Den tjekker URLen for hvilken side man er på (Om urlen indeholder side navnet) og skifter billede
-if (currentURL.includes("/index") || currentURL.includes("/forside")) {
+if (currentURL.includes("/index")) {
     startBoxBilleder.style.backgroundImage = 'url("' + billeder[0] + '")';
 }
 if (currentURL.includes("/blod")) {
